@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_securitySystem"
+            android:icon="@android:drawable/ic_secure"
+            android:title="Security System" />
+        <item
+            android:id="@+id/nav_smartDev"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Smart Device Manager" />
+        <item
+            android:id="@+id/nav_powerM"
+            android:icon="@android:drawable/ic_lock_idle_low_battery"
+            android:title="Power Manager" />
+
+        <item
+            android:id="@+id/nav_inbox"
+            android:icon="@android:drawable/ic_dialog_email"
+            android:title="Inbox" />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Log Out" />
+    </group>
+
+</menu>

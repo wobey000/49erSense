@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.a49ersense">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MonthlyRev"></activity>
+        <activity android:name=".CreateAccount" />
+        <activity android:name=".Thermostat" />
+        <activity android:name=".Device_list" />
+        <activity android:name=".Alarms" />
+        <activity android:name=".Garage_Doors" />
+        <activity android:name=".motion_sensors" />
+        <activity android:name=".video_feeds" />
+        <activity android:name=".ExpensesSupplyMenu" />
+        <activity android:name=".Locks_Activity" />
+        <activity android:name=".ViewLoadProfile" />
+        <activity android:name=".ViewGeneratorProfile" />
+        <activity android:name=".StateEstimation" />
+        <activity android:name=".ViewBusHotspots" />
+        <activity android:name=".GridControllerMenu" />
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".PastRevenueMenu" />
+        <activity android:name=".RevenueSupplyMenu" />
+        <activity android:name=".AddSourceMenu" />
+        <activity android:name=".PowerSourcesMenu" />
+        <activity android:name=".StatsMenu" />
+        <activity android:name=".UserChoice" />
+        <activity
+            android:name=".HomeScreen"
+            android:label="@string/title_activity_home_screen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:label="@string/title_activity_login" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
