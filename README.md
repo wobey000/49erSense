@@ -1,4 +1,5 @@
 # 49erSense
+Android UI Design for ECGR 4090: Internet of Things
 
 A repository containing the Final project for IOT course. I'm still making improvemnts to it in my free time. 
 
